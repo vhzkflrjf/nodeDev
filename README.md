@@ -266,3 +266,7 @@ pm2 delete express-app
 | `"forwardPorts": [3000]` | ✅ 추천 | 협업 시 포트 일관성 보장 |
 | PM2 사용 | ✅ 추천 | 백그라운드 실행 및 자동 재시작 |
 | 환경 변수 포트 설정 | ✅ 필수 | 충돌 시 유연하게 대처 가능 |
+
+## 참고
+git config --global user.name "hz"
+git config --global user.email "khjcoo@micro.org"
