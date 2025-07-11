@@ -1,6 +1,7 @@
 // index.js
 const express = require('express');
 const app = express();
+app.disable('x-powered-by');
 const port = 3000;
 
 // JSON 파싱 미들웨어
