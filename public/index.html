@@ -1,0 +1,25 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PM2 Fetch Test</title>
+</head>
+<body>
+  <h1>Node.js 서버에 데이터 보내기</h1>
+  <button onclick="sendData()">Send</button>
+  <pre id="response"></pre>
+
+  <script>
+    async function sendData() {
+      const response = await fetch('/api/data', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ user: "Alice", time: new Date().toISOString() })
+      });
+      const result = await response.json();
+      document.getElementById('response').textContent = JSON.stringify(result, null, 2);
+    }
+  </script>
+</body>
+</html>
