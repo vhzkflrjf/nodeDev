@@ -1,5 +1,5 @@
 
-### 📁 `nodeContainer01` 폴더에서 Devcontainer 구성 방법 (Windows + VSCode 기준)
+# 📁 `nodeContainer01` 폴더에서 Devcontainer 구성 방법 (Windows + VSCode 기준)
 
 #### ✅ 1. 폴더 열기
 - VSCode 실행 후 `nodeContainer01` 폴더를 연다  
